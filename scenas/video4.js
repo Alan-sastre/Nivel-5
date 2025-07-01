@@ -25,7 +25,7 @@ class scenaVideo4 extends Phaser.Scene {
       0x000000
     );
 
-    const video = this.add.video(screenWidth / 2, screenHeight / 2, "video3");
+    const video = this.add.video(screenWidth / 2, screenHeight / 2, "video4");
 
     const videoElement = video.video;
     videoElement.muted = false;
